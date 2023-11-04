@@ -51,5 +51,16 @@
 }
 /*Styling input group input and input group textarea*/
 .input-group input, .input-group textarea{
-    
+    padding: 12px 0;
+    flex-basis: 70%;
+    border-bottom: 1px solid #c96c6c;
+    outline: 0;
+    color: #333;
+    font-size: 17px;
+    border: 0;
+    background: transparent;
+}
+/*Decoration for placeholder*/
+::placeholder{
+
 }
