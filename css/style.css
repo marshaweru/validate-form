@@ -47,5 +47,9 @@
 }
 /*Styling for input group label*/
 .input-group label{
+    flex-basis: 30%;
+}
+/*Styling input group input and input group textarea*/
+.input-group input, .input-group textarea{
     
 }
