@@ -87,5 +87,5 @@ form button{
 }
 /*change color of submit button error message, use # coz it's an ID*/ 
 #submit-error{
-    
+    color: rgb(105, 34, 212);
 }
