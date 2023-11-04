@@ -78,3 +78,14 @@ form button{
     display: block;
 }
 /*Change position and color of error message*/
+.input-group span{
+    color:rgb(105, 34, 212);
+    position: absolute;
+    right: 18px;
+    bottom: 13px;
+    font-size: 15px;
+}
+/*change color of submit button error message, use # coz it's an ID*/ 
+#submit-error{
+    
+}
