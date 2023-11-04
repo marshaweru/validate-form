@@ -62,5 +62,7 @@
 }
 /*Decoration for placeholder*/
 ::placeholder{
-
+    font-size: 15px;
 }
+
+/*Styling for form button*/
