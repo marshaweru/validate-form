@@ -39,5 +39,13 @@
 }
 /*Styling for input group*/
 .input-group{
+    margin: 12px 0;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    display: flex;
+}
+/*Styling for input group label*/
+.input-group label{
     
 }
