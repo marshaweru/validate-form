@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form-validation</title>
     <link rel="stylesheet" href="css\style.css">
-    <script src="https://kit.fontawesome.com/c425e24a8.js" crossorigin="anonymous"></script><!--Documentation for fontawesome link-->
+    <script src="https://kit.fontawesome.com/f6692f3438.js" crossorigin="anonymous"></script><!--Documentation for fontawesome link-->
 </head>
 <body>
     <div class="container">
@@ -15,22 +15,25 @@
                 <label>Full Name</label>
                 <input type="text" placeholder="Enter your name">
                 <!--Add span tag to show error message-->
-                <span></span>
+                <span id="name-error">name is required</span>
             </div>
 
             <div class="input-group">
                 <label>Phone No.</label>
                 <input type="tel" placeholder="123 456 7890">
+                <span id="phone-error">phone is required</span>
             </div>
 
             <div class="input-group">
                 <label>Email ID</label>
                 <input type="email" placeholder="Enter Email">
+                <span id="email-error">email is required</span>
             </div>
 
             <div class="input-group">
                 <label>Your Message</label>
                 <textarea rows="5" placeholder="Enter your message"></textarea>
+                <span id="message-error">message is required</span>
             </div>
 
             <button>Submit</button>
