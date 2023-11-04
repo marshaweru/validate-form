@@ -17,5 +17,16 @@
 }
 /*Styling for container form*/
 .container form{
-    background: ;
+    background: #e4b5b5;
+    max-width: 500px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 5px 35px rgba(0, 0, 0, 0.5) ;
+    width: 100%;
+    padding: 50px 30px 20px;
+}
+/*Styling for fa-paper-plane*/
+.fa-paper-plane{
+    left: 45%;
+    background: #fff;
 }
