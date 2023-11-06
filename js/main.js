@@ -14,13 +14,13 @@ function validateName(){//Function to be executed when we type into input field
         nameError.innerHTML = 'Name is required';
         return false;
     }
-    if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*&/)){
+    if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*$/)){
         //First character should be an alphabetical letter and every other character should be between a and z
         //Exclamation means value isn't matching with expression
         nameError.innerHTML = 'Write full name';
         return false;
     }
     //Return success message when there is no error
-    nameError.innerHTML = 'valid';
+    nameError.innerHTML = '<i class="fa-solid fa-user-check"></i>';//Add check icon
     return true;
 }
