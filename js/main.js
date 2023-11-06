@@ -24,3 +24,9 @@ function validateName(){//Function to be executed when we type into input field
     nameError.innerHTML = '<i class="fa-solid fa-user-check"></i>';//Add check icon
     return true;
 }
+//Phone number validation
+function validatePhone(){
+    var phone = document.getElementById('contact-phone').value;
+    //Add condition to check phone number
+
+}
