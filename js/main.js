@@ -65,7 +65,7 @@ function validateMessage(){
     var message = document.getElementById('contact-message').value;
     var required = 30;//Number of characters required
     var left = required - message.length;
-
+//Add condition
     if(left>0){
         messageError.innerHTML = left + ' more charcters required';
         return false;
