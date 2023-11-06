@@ -48,4 +48,14 @@ function validatePhone(){
 function validateEmail(){
     var email = document.getElementById('contact-email').value;
     //check the conditions for email
+    if(email.length == 0){//Check if value is o meaning empty
+        emailError.innerHTML = 'Email is required'
+        return false;
+    }
+    if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){
+        emailError.innerHTML = 'Email Invalid'
+        return false;
+    }
+    emailError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
+    return true;
 }
