@@ -28,5 +28,19 @@ function validateName(){//Function to be executed when we type into input field
 function validatePhone(){
     var phone = document.getElementById('contact-phone').value;
     //Add condition to check phone number
+    if(phone.length == 0){//Check whether phone input field is empty
+        phoneError.innerHTML = 'Phone no. is required';
+        return false;
+    }
+    if(phone.length ! == 10){
+        phoneError.innerHTML == 'Phone no. should be 10 digits';
+        return false;
+    }
+    if(!phone.match(/^[0-9]{10}$/)){
+        phoneError.innerHTML = 'Phone no. is required';
+        return false;
+    }
 
+    phoneError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
+    return true;
 }
