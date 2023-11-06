@@ -62,5 +62,14 @@ function validateEmail(){
 
 //Validate message
 function validateMessage(){
-    var message = document.getElementById('')
+    var message = document.getElementById('contact-message').value;
+    var required = 30;//Number of characters required
+    var left = required - message.length;
+
+    if(left>0){
+        messageError.innerHTML = left + ' more charcters required';
+        return false;
+    }
+    messageError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
+    return true;
 }
