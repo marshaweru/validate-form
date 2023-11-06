@@ -63,7 +63,7 @@ function validateEmail(){
 //Validate message
 function validateMessage(){
     var message = document.getElementById('contact-message').value;
-    var required = 30;//Number of characters required
+    var required = 7;//Number of characters required
     var left = required - message.length;
 //Add condition
     if(left>0){
