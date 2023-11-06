@@ -44,3 +44,4 @@ function validatePhone(){
     phoneError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
     return true;
 }
+//Script for email validation
