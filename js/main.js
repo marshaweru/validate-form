@@ -8,4 +8,5 @@ var submitErro = document.getElementById('sbmit-error');
 //Add function that will validate input box
 function validateName(){//Function to be executed when we type into input field
     var name = document.getElementById('contact-name').value;
+    //var called name will store content written in input box
 }
