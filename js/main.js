@@ -37,7 +37,7 @@ function validatePhone(){
         return false;
     }
     if(!phone.match(/^[0-9]{10}$/)){//Number is btwn 0-9 and is 10 characters
-        phoneError.innerHTML = 'Phone no. is required';
+        phoneError.innerHTML = 'Only digits please';
         return false;
     }
 
