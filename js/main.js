@@ -27,7 +27,7 @@ function validateName(){//Function to be executed when we type into input field
 //Phone number validation
 function validatePhone(){
     var phone = document.getElementById('contact-phone').value;
-    //Add condition to check phone number
+    //Add conditions to check phone number
     if(phone.length == 0){//Check whether phone input field is empty
         phoneError.innerHTML = 'Phone no. is required';
         return false;
@@ -45,3 +45,7 @@ function validatePhone(){
     return true;
 }
 //Script for email validation
+function validateEmail(){
+    var email = document.getElementById('contact-email').value;
+    //check the conditions for email
+}
