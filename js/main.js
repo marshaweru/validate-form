@@ -59,3 +59,8 @@ function validateEmail(){
     emailError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
     return true;
 }
+
+//Validate message
+function validateMessage(){
+    
+}
