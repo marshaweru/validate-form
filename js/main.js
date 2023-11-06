@@ -32,7 +32,7 @@ function validatePhone(){
         phoneError.innerHTML = 'Phone no. is required';
         return false;
     }
-    if(phone.length ! == 10){
+    if(phone.length !== 10){//Check if length of phone number is not equal to 10
         phoneError.innerHTML == 'Phone no. should be 10 digits';
         return false;
     }
