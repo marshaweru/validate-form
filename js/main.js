@@ -73,3 +73,7 @@ function validateMessage(){
     messageError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
     return true;
 }
+
+function validateForm(){
+    //Check functions added in input field
+}
