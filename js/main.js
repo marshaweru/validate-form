@@ -76,4 +76,9 @@ function validateMessage(){
 
 function validateForm(){
     //Check functions added in input field
+    if(!validateName() || !validatePhone() || !validateEmail() || !validateMessage())//If any of these are false it'll display error message
+    submitError.style.display = 'block';
+    submitError.innerHTML = 'Please fix error to submit';
+    setTimeout(function(){submitError.style.display = 'none';}, 3000);//After 3 sec error message will disappear
+    return false;
 }
