@@ -52,7 +52,7 @@ function validateEmail(){
         emailError.innerHTML = 'Email is required'
         return false;
     }
-    if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){//Check for this email format; 
+    if(!email.match(/^[A-Za-z]\._\-[0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/)){//Check for this email format; should be any alphabet, may contain . or underscore or hyphen, can contain any number, should have an @ sign, then some alphabets, then a dot then another alphabet which is btwn 2-4 characters
         emailError.innerHTML = 'Email Invalid'
         return false;
     }
