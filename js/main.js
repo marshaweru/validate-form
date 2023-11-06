@@ -16,6 +16,7 @@ function validateName(){//Function to be executed when we type into input field
     }
     if(!name.match(/^[A-Za-z]*\s{1}[A-Za-z]*&/)){
         //First character should be an alphabetical letter and every other character should be between a and z
+        //Exclamation means value isn't matching with expressin
 
     })
 }
