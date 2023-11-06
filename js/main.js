@@ -67,7 +67,7 @@ function validateMessage(){
     var left = required - message.length;
 //Add condition
     if(left>0){
-        messageError.innerHTML = left + ' more charcters required';
+        messageError.innerHTML = left + ' more characters required';
         return false;
     }
     messageError.innerHTML = '<i class="fa-solid fa-user-check"></i>';
