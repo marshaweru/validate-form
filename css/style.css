@@ -89,3 +89,7 @@ form button{
 #submit-error{
     color: rgb(105, 34, 212);
 }
+/*Change color of check icon using i tag*/
+.input-group span i{
+    color: #8791b9;
+}
