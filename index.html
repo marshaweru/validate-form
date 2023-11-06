@@ -26,13 +26,13 @@
 
             <div class="input-group">
                 <label>Email ID</label>
-                <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail"><!--Add validation for email-->
+                <input type="email" placeholder="Enter Email" id="contact-email" onkeyup="validateEmail()"><!--Add validation for email-->
                 <span id="email-error"></span>
             </div>
 
             <div class="input-group">
                 <label>Your Message</label>
-                <textarea rows="5" placeholder="Enter your message"></textarea>
+                <textarea rows="5" placeholder="Enter your message" onkeyup="validateMessage()"></textarea>
                 <span id="message-error"></span>
             </div>
 
