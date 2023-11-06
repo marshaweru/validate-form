@@ -62,5 +62,5 @@ function validateEmail(){
 
 //Validate message
 function validateMessage(){
-    
+    var message = document.getElementById('')
 }
